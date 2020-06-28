@@ -8,7 +8,7 @@ Aussi pour accompagner ces fichiers, un fichier string_utils qui permet de me si
 
 Ainsi, l'essentiel du sujet se situe dans le dumsh.c / dumsh.h 
 
-J'ai pensé egalement que le moyen le plus efficace et le plus approprié de créer des tableaux de fonctions facilement executables contenant l'adresse de chacune des commandes implémentées 
+J'ai pensé egalement que pour être  plus efficace et le plus approprié , il faudrait  créer des tableaux de fonctions facilement executables contenant l'adresse de chacune des commandes implémentées reliées à un tableau de string contenant les noms des commandes.
 
 Afin d'executer les commandes, J'ai créé la fonction dumsh_execute qui verifie si la commande entrée appartient aux fonctions implémentées ou si c'est un programme des commandes bash ou autres (comme bin/bash).
 
