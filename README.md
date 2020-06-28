@@ -4,9 +4,6 @@
 ---
 > Ce programme lance un shell avec des commandes qui ont été implémentés et qui permet de lancer d'autres programmes.<br/>
 
-> It can be opened in a **terminal**.
-
-
 > Il est écrit en  __Bas niveau C UNIX language__. <br />
 
 ---
