@@ -259,10 +259,11 @@ int dumsh_cd(char **args, int fd, char *stderr, int *stderr_size, int no_redirec
 		}
 	}
 	else if (chdir(args[1]) != 0)
+	{
 		color(RED);
-	perror("dumsh_cd error");
-	resetColor;
-
+		perror("dumsh_cd error");
+		resetColor;
+	}
 	return 1;
 }
 
