@@ -23,7 +23,7 @@
 ### Example of usage:
 	make
 	>> cd ..
-	>> cd >1 fic.txt
+	>> ls >1 fic.txt
 	>> ls
 	>> ls -R / >1 fic.txt
 	>> exit
